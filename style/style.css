@@ -30,7 +30,7 @@ body {
   top: 0;
 }
 
-.container > div {
+.container>div {
   position: absolute;
   left: 0;
   right: 0;
@@ -41,7 +41,7 @@ body {
   font-size: 4.5rem;
 }
 
-.one > img {
+.one>img {
   vertical-align: middle;
   margin-bottom: 10px;
   max-width: 100%;
@@ -117,9 +117,15 @@ body {
 }
 
 .six img {
-  display: inline-block;
-  max-width: 45%;
+  max-width: 80%;
+  /* Adjust this percentage for the desired size */
   height: auto;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+  /* Centers the image */
 }
 
 .six .hat {
